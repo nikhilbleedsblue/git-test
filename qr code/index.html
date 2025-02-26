@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    .main{
+      display:flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: aliceblue;
+    }
+    .hello{
+      width: 320px;
+      height: 499px;
+      border-radius: 20px;
+      padding:20px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center horizontally */
+      justify-content: flex-start;
+    }
+    .hello img{
+      width: 100%;
+      border-radius: 10px;
+      
+    }
+    .large-text{
+        padding: 20px;
+        width: 256px;
+        height: 52px;
+        font-size: 22px;
+        line-height: 26px;
+        color: #1f314f;
+        font-weight: 700;
+        font-family: "Outfit";
+        text-align: center;
+    }
+    .small-text{
+        width: 256px;
+        height: 63px;
+        font-size: 15px;
+        line-height: 21px;
+        color: #68778d;
+        font-weight: 400;
+        font-family: "Outfit";
+        text-align: center;
+    }
+   
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <div class="hello">
+        <img src="image-qr-code.png" alt="no image">
+        <div class="large-text">Improve your front-end skills by building projects</div>
+        <div class="small-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</div>
+    </div>
+  </div>
+<!-- 
+  Improve your front-end skills by building projects
+
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">P Nikhil Varma</a>.
+  </div> -->
+</body>
+</html>
