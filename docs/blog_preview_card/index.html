@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 1px solid #111111; 
+  
+  
+  width: 73px;
+height: 26px;
+border-radius: 4px;
+background-color: #f4d04e;-->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+        background-color: #f4d04e;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 384px;
+        height: 522px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 25px;
+        background-color: #ffffff;
+        border: 1px solid #111111;
+        box-shadow: 10px 10px 0px black;
+        padding: 25px;
+    }
+    .image_wrapper{
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .learning{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        width: 73px;
+        height: 26px;
+        border-radius: 4px;
+        background-color: #f4d04e;
+    }
+    .publish{
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 18px;
+        color: #111111;
+        font-weight: 500;
+        font-family: "Figtree";
+    }
+    .title{
+        margin-top: 20px;
+        width: 279px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #111111;
+        font-weight: 800;
+        font-family: "Figtree";
+    }
+    .title:hover{
+        margin-top: 20px;
+        width: 279px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        color: #f4d04e;
+        font-weight: 800;
+        font-family: "Figtree";
+    }
+    .desc{
+        margin-top: 20px;
+        height: 63px;
+        font-size: 14px;
+        line-height: 21px;
+        color: #6b6b6b;
+        font-weight: 500;
+        font-family: "Figtree";
+    }
+    .footer{
+        display: flex;
+    }
+    .img_wrapper img{
+        margin-top: 10px;
+        height:30px;
+        width: 30px;
+    }
+    .name{
+        padding-left: 10px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    @media (max-width: 576px) {
+        .card{
+            width: 327px;
+            height: 501px;
+            box-sizing: border-box;
+            padding: 25px;
+            border-radius: 20px;
+            background-color: #ffffff;
+            border: 1px solid #111111;
+            box-shadow: 10px 10px 0px black;
+        }
+        
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="image_wrapper">
+        <img src="illustration-article.svg" alt ="no Image">
+    </div>
+   
+    <div class="learning">
+        Learning
+    </div>
+    <div class = "publish">
+        Published on 21 Dec 2023
+    </div>
+    <div class = "title">
+        HTML and CSS Foundations
+    </div>
+    <div class="desc">
+        These languages are the backbone of every website, defining structure, content, and presentation.
+    </div>
+
+    <div class="footer">
+        <div class="img_wrapper">
+            <img src ="image-avatar.webp" alt = " no image">
+        </div>
+        <div class="name">
+            Gorge Hpeer
+        </div>
+    </div>
+
+</body>
+</html>
